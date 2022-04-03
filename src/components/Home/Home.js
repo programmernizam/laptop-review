@@ -1,7 +1,10 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Button, Row } from "react-bootstrap";
+import useReview from "../../Hooks/useReview";
+import Review from "../Review/Review";
 
 const Home = () => {
+  const [reviews]  = useReview()
   return (
     <div className="container">
       <div className="row hero-section align-items-center justify-content-between">
@@ -35,8 +38,11 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="customer-reviews">
-        <h2 className="fw-bold">Customer Reviews</h2>
+      <div className="review-section">
+        <h2 className="fw-bold customer-reviews">Customer Reviews</h2>
+        <Row xs={1} md={3} className="g-4">
+          {reviews.map(review => <Review key={review.id} review={review}/>).slice(0, 3)}
+        </Row>
       </div>
     </div>
   );
