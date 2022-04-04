@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="container">
       <div className="row hero-section align-items-center justify-content-between">
-        <div className="col-md-6 text-start">
+        <div className="col-lg-6 text-start order-lg-0 order-1">
           <h2 className="text-uppercase fw-bold" style={{ fontSize: "38px" }}>
             Collect Your Best Laptop With{" "}
             <span className="text-danger">AMAR LAPTOP!</span>
@@ -31,7 +31,7 @@ const Home = () => {
             </a>
           </Button>
         </div>
-        <div className="col-md-6 ps-4">
+        <div className="col-lg-6 ps-4">
           <img
             className="w-100"
             src="https://www.techlandbd.com/image/cache/catalog/Laptop/Msi/prestige%2014/%2014%20A11SCX/msi-prestige-15-a11scx-1.jpg-1100x1100.jpg"
