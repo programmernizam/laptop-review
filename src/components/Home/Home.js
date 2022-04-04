@@ -27,7 +27,7 @@ const Home = () => {
               href="https://www.msi.com/Business-Productivity/Prestige-14-A11X/Specification"
               className="text-decoration-none text-white"
             >
-              LIVE DEMO
+              More Info
             </a>
           </Button>
         </div>
