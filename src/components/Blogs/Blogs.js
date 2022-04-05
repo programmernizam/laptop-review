@@ -4,8 +4,8 @@ const Blogs = () => {
   return (
     <div className="container mt-5">
       <h2>BLOGS</h2>
-      <div class="container px-4 mt-4">
-          <div class="shadow p-5">
+      <div className="container px-4 mt-4">
+          <div className="shadow p-5">
             <h3>What is Semantic tag?</h3>
             <p>
               For creating different section in our webpage we use the div tag,
@@ -16,7 +16,7 @@ const Blogs = () => {
               becomes meaningful in both user and machine.
             </p>
           </div>
-          <div class="shadow p-5 mt-4">
+          <div className="shadow p-5 mt-4">
             <h3>What is context API?</h3>
             <p>
               Context API is a react structure that helps us reduce amount of
